@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Cheap SaaS</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <style>
+        /* Full-page background */
+        body {
+            background-color: black;
+            margin: 0;
+        }
+
+        /* Make sure content appears above background */
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Style for particles container */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="text-white">
+    <!-- Particles.js Background -->
+    <div id="particles-js"></div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <nav class="bg-black p-6 text-center shadow-xl">
+            <h1 class="text-6xl font-bold tracking-wide">GET CHEAP SAAS</h1>
+        </nav>
+        
+        <header class="flex flex-col items-center justify-center min-h-screen text-center px-6">
+            <h2 class="text-5xl font-extrabold">Affordable SaaS Solutions</h2>
+            <p class="mt-4 text-lg max-w-2xl">
+                Get high-quality SaaS alternatives at a fraction of the price. No overcharging, just efficiency.
+            </p>
+            
+            <!-- Form -->
+            <form id="contact-form" accept-charset="UTF-8"  method="POST" action="https://getform.io/f/awnqwnxb" class="mt-6 flex flex-col items-center w-full max-w-lg">
+                <input id="email" name="email" type="email" placeholder="Enter your email" class="p-3 border rounded-md w-full text-lg text-black" required>
+                <textarea id="message" name="message" placeholder="Type your message..." class="p-3 w-full h-32 text-black border rounded-md mt-3" required></textarea>
+                <button type="submit" class="bg-yellow-500 text-black px-6 py-3 rounded-md mt-3 text-lg font-semibold shadow-md hover:bg-yellow-600 transition-all">
+                    Send Message
+                </button>
+                <p id="form-error" class="text-red-500 mt-3 hidden">Please fill out both fields correctly.</p>
+                <p id="form-success" class="text-green-500 mt-3 hidden">Message sent successfully!</p>
+            </form>
+        </header>
+
+        <!-- Why Choose Us Section -->
+<!-- Why Choose Us Section -->
+<section class="py-20 text-center bg-gray-900">
+    <h3 class="text-4xl font-bold text-white">Why Choose Us?</h3>
+    <p class="mt-3 text-gray-300 max-w-2xl mx-auto">
+        We focus on delivering cost-effective SaaS solutions without sacrificing quality.
+    </p>
+
+    <div class="mt-10 grid gap-8 md:grid-cols-3 px-6">
+        <!-- Card 1 -->
+        <div class="p-8 rounded-2xl shadow-lg bg-opacity-10 backdrop-blur-md border border-gray-700 bg-gradient-to-b from-gray-800 to-gray-900">
+            <div class="text-5xl mb-4">💰</div>
+            <h4 class="text-2xl font-semibold text-white">Lower Costs</h4>
+            <p class="mt-2 text-gray-300">Stop overpaying for features you don’t need.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-8 rounded-2xl shadow-lg bg-opacity-10 backdrop-blur-md border border-gray-700 bg-gradient-to-b from-gray-800 to-gray-900">
+            <div class="text-5xl mb-4">⚡</div>
+            <h4 class="text-2xl font-semibold text-white">Simple & Fast</h4>
+            <p class="mt-2 text-gray-300">Our SaaS tools are built for speed and ease of use.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-8 rounded-2xl shadow-lg bg-opacity-10 backdrop-blur-md border border-gray-700 bg-gradient-to-b from-gray-800 to-gray-900">
+            <div class="text-5xl mb-4">🔍</div>
+            <h4 class="text-2xl font-semibold text-white">No Hidden Fees</h4>
+            <p class="mt-2 text-gray-300">Transparent pricing with no unexpected charges.</p>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Looking for SaaS Ideas Section -->
+        <section class="py-20 text-center bg-gray-900">
+            <h3 class="text-3xl font-bold">We're Looking for SaaS Ideas!</h3>
+            <p class="mt-4 max-w-3xl mx-auto text-lg">
+                Have an idea for a SaaS tool that could save people money? We build <span class="text-green-400 font-semibold">affordable alternatives</span> to existing software. 
+                If you need a specific tool, let us know and we’ll create it for a fraction of the cost!
+            </p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black py-6 text-center text-gray-400">
+        <p>&copy; 2025 @GetCheapSaas. All rights reserved.</p>
+    </footer>
+
+    <!-- Particles.js Script -->
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" }, // White particles
+                shape: { type: "circle" },
+                opacity: { value: 1, random: true },
+                size: { value: 3, random: true },
+                line_linked: { 
+                    enable: true, 
+                    distance: 150, 
+                    color: "#ffffff", // White lines
+                    opacity: 0.5, 
+                    width: 1 
+                },
+                move: { enable: true, speed: 10, random: true, direction: "none" }
+            }
+        });
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    let email = document.getElementById("email").value.trim();
+    let message = document.getElementById("message").value.trim();
+    let errorElement = document.getElementById("form-error");
+    let successElement = document.getElementById("form-success");
+
+    // Reset error/success messages
+    errorElement.classList.add("hidden");
+    successElement.classList.add("hidden");
+    errorElement.textContent = "Please fill out all fields."; // Reset error message
+
+    // Validation
+    if (email === "" || message === "") {
+        errorElement.classList.remove("hidden");
+        return;
+    }
+    
+    if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+        errorElement.textContent = "Please enter a valid email address.";
+        errorElement.classList.remove("hidden");
+        return;
+    }
+
+    // Prepare form data
+    const formData = new FormData(event.target);
+
+    // Send data using Fetch API
+    fetch("https://getform.io/f/awnqwnxb", {
+        method: "POST",
+        body: formData,
+        headers: {
+            "Accept": "application/json",
+        },
+    })
+    .then(response => {
+        if (response.ok) {
+            successElement.classList.remove("hidden"); // Show success message
+            document.getElementById("contact-form").reset(); // Reset form
+            setTimeout(() => successElement.classList.add("hidden"), 3000);
+        } else {
+            throw new Error("Something went wrong. Please try again.");
+        }
+    })
+    .catch(error => {
+        errorElement.textContent = error.message;
+        errorElement.classList.remove("hidden");
+    });
+});
+
+    </script>
+</body>
+</html>
